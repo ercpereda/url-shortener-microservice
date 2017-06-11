@@ -49,7 +49,7 @@ mongo.connect(process.env.MONGOLAB_URI || 'mongodb://localhost:27017/url-shorten
       if (err) return res.status(500).json({ error: 'Something wrong happend in our server. Try later.'});
       
       res.json({
-        origial_url: url,
+        original_url: url,
         short_url: req.get('host') + '/' + id
       });
     });
