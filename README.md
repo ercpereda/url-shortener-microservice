@@ -8,12 +8,12 @@ Example:
 
 ```
 request:
-https://camper-api-project-ercpereda.c9users.io/new/http://www.google.com
+https://freecodecamp-url-shortener.herokuapp.com/new/http://www.google.com
 
 response:
 {
   "origial_url": "http://www.google.com",
-  "short_url": "camper-api-project-ercpereda.c9users.io/7766"
+  "short_url": "freecodecamp-url-shortener.herokuapp.com/9323"
 }
 ```
 
